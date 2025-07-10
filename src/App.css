@@ -1,0 +1,12 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}

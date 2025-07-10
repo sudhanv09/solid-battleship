@@ -1,12 +1,12 @@
-
+import Grid from "./components/board-grid"
+import "./App.css"
 
 function App() {
   return (
-    <>
-      <p>
-        Hello
-      </p>
-    </>
+    <main class="game">
+      <h1>Place ships</h1>
+      <Grid />
+    </main>
   )
 }
 

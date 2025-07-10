@@ -1,0 +1,20 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, var(--grid-size));
+  grid-template-rows: repeat(10, var(--grid-size));
+  gap: 2px;
+  width: fit-content;
+}
+
+.cell {
+  width: var(--grid-size);
+  height: var(--grid-size);
+  background-color: #eee;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cell.selected {
+  background-color: #3498db;
+}
